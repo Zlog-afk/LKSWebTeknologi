@@ -1,0 +1,134 @@
+# =========================
+# OS
+# =========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# =========================
+# Laravel / PHP
+# =========================
+/vendor/
+**/vendor/
+composer.phar
+.phpunit.result.cache
+.phpunit.cache/
+.php-cs-fixer.cache
+.php-cs-fixer.php
+auth.json
+
+# Laravel storage & cache
+**/storage/*.key
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/testing/*
+**/storage/framework/views/*
+**/storage/logs/*
+!**/storage/framework/cache/data/.gitignore
+!**/storage/framework/sessions/.gitignore
+!**/storage/framework/testing/.gitignore
+!**/storage/framework/views/.gitignore
+!**/storage/logs/.gitignore
+**/bootstrap/cache/*.php
+!**/bootstrap/cache/.gitignore
+
+# Laravel public build artifacts
+**/public/hot
+**/public/storage
+**/public/build
+**/public/css
+**/public/js
+**/public/mix-manifest.json
+
+# =========================
+# Node / React / Vite
+# =========================
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build output
+**/dist/
+**/build/
+**/.vite/
+**/.turbo/
+**/.next/
+**/out/
+*.tsbuildinfo
+
+# Coverage & test
+**/coverage/
+**/.nyc_output/
+
+# =========================
+# Database & dumps (lokal)
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+# biarkan dump resmi modul jika ada di folder materi
+!**/db-dump.sql
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# Archives hasil ekstraksi lokal
+# =========================
+# Abaikan folder hasil unzip scaffold (bukan zip materi asli)
+**/XX_SERVER_MODULE_SCAFFOLD/
+**/XX_SERVER_MODULE_PHASE_2_SCAFFOLD/
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.old
+*.orig
+.history/
+.local/
