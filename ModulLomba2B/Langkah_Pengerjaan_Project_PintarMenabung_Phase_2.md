@@ -27,6 +27,12 @@
    ```bash
    cp .env.example .env
    ```
+
+   gunakan perintah berikut di commandpromt Windows:
+     ```bash
+     xcopy .env.example .env
+     ```
+
    Isi `VITE_API_URL` sesuai backend Fase 1 Anda:
    - Lokal: `http://localhost:8000/api`
    - Saat lomba: `http://XX.api-server-module.lksn.id/api` (ganti `XX` dengan nomor komputer)
